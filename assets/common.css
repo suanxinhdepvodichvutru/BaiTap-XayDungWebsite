@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#header {
+    border-bottom: 1px solid #ccc;
+}
+#header .sub-header {
+    padding: 15px 0;
+}
+
+
+#header .sub-header .icon-header {
+    color: #df321b;
+    transform: none;
+    
+}
+
+#header .sub-header .search-input {
+    position: relative;
+}
+
+#header .sub-header .search-icon {
+    position: absolute;
+    font-size: 20px;
+    top: 3px;
+    left: 25px;
+}
+
+#header .nav-bar ul{
+    list-style: none;
+    display: flex;
+    gap: 9px;
+    margin: 0;
+}
+
+#header .nav-bar li button{
+    border: none;
+    background: #fff;
+    font-size: 19px;
+    font-weight: 600;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+}
+#header .nav-bar li button::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 4px;
+    border-bottom: 4px solid #cf0000;
+
+    transition: width 0.5s; /* Áp dụng hiệu ứng transition cho chiều rộng */
+}
+
+#header .nav-bar li button:hover::after{
+    width: 100%;
+}

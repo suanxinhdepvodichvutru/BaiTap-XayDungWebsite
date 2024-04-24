@@ -1,0 +1,40 @@
+#content{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+#content a{
+    display: block;
+    cursor: pointer;
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    transition: box-shadow .2s ease-in-out;
+    text-decoration: none;
+    color: black;
+}
+
+#content .img-content{
+    width: 270px;
+    height: 270px;
+    object-fit: cover;
+}
+
+
+#content .discrip-content{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+#content .discrip-content h3{
+    font-size: 22px;
+
+}
+
+#content .discrip-content p{
+    font-size: 15px;
+    font-weight: 400;
+    font-style: italic;
+}
+

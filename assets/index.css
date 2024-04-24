@@ -1,0 +1,18 @@
+#content{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+/* #content .img-container{
+    /* width: 710px;
+    height: 473px; */
+/* } */
+
+#content .img-container img{
+        height: 100%;
+        width: 100%;
+        inset: 0px;
+        object-fit: cover;
+        color: transparent;
+}
