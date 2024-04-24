@@ -1,10 +1,10 @@
-#content{
+#content {
     margin-top: 25px;
     display: flex;
     justify-content: center;
 }
 
-#content a{
+#content a {
     display: block;
     cursor: pointer;
     position: relative;
@@ -15,26 +15,25 @@
     color: black;
 }
 
-#content .img-content{
+#content .img-content {
     width: 270px;
     height: 270px;
     object-fit: cover;
 }
 
-
-#content .discrip-content{
+#content .discrip-content {
     margin-top: 15px;
     margin-left: 10px;
 }
 
-#content .discrip-content h3{
+#content .discrip-content h3 {
     font-size: 22px;
-
 }
 
-#content .discrip-content p{
+#content .discrip-content p {
     font-size: 15px;
     font-weight: 400;
     font-style: italic;
 }
 
+#content .slider {}
