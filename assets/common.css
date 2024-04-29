@@ -10,6 +10,9 @@
     padding: 15px 0;
 }
 
+#header>div{
+    width: 100%;
+}
 
 #header .sub-header .icon-header {
     color: #df321b;
@@ -58,4 +61,47 @@
 
 #header .nav-bar li button:hover::after{
     width: 100%;
+}
+
+
+#footer{
+    background-color: #c2c2c2;
+    padding: 50px 20px 5px 20px;
+}
+
+#footer>div{
+    width: 100%;
+}
+
+#footer .infor-contact{
+    display: flex;
+}
+#footer .infor-contact div{
+    margin: 10px;
+    font-size: 20px;
+    background-color: #d7d7d7;
+    padding: 5px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;    
+}
+
+#footer .infor-contact p{
+   line-height: 4;
+   color: #000;
+}
+#footer .infor-contact a{
+    color: #000;
+    text-decoration: none;
+ }
+
+#footer .infor-contact a:hover{
+    color: #000;
+    opacity: .7;
+}
+ 
+ 
+
+#footer .footer-about{
+    text-align: left;
 }
