@@ -1,10 +1,12 @@
-#content {
+#posts {
     margin-top: 25px;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    flex-direction: column;
 }
 
-#content a {
+#posts a {
     display: block;
     cursor: pointer;
     position: relative;
@@ -13,27 +15,47 @@
     transition: box-shadow .2s ease-in-out;
     text-decoration: none;
     color: black;
+    overflow: hidden;
+    border-radius: 6px;
+    transition: box-shadow ease 1s;
 }
 
-#content .img-content {
+#posts a:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+}
+
+#posts a:hover img {
+    transform: scale(1.2);
+}
+
+#posts .img-post {
     width: 270px;
     height: 270px;
     object-fit: cover;
+    overflow: hidden;
 }
 
-#content .discrip-content {
+#posts .img-post img{
+    width: 100%;
+    height: 100%;
+    transition:  ease 1s;
+
+}
+
+#posts .discrip-post {
     margin-top: 15px;
     margin-left: 10px;
 }
 
-#content .discrip-content h3 {
+#posts .discrip-post h3 {
     font-size: 22px;
 }
 
-#content .discrip-content p {
+#posts .discrip-post p {
     font-size: 15px;
     font-weight: 400;
     font-style: italic;
 }
 
-#content .slider {}
+#posts .slider {}

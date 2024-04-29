@@ -18,16 +18,27 @@
 }
 
 #content .img-container {
-    width: 710px;
-    height: 473px;
+    width: 650px;
+    height: 450px;
+    overflow: hidden;
+    border-radius: 11px;
+    padding: 0;
+
 }
 
 #content .img-container img {
+    transition: transform 1s ease;
     height: 100%;
+
     width: 100%;
     inset: 0px;
     object-fit: cover;
     color: transparent;
+}
+#content .img-container img:hover{
+   transform: scale(1.2);
+   border-radius: 11px;
+
 }
 
 #content .heading {

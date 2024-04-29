@@ -7,7 +7,7 @@
     border-bottom: 1px solid #ccc;
 }
 #header .sub-header {
-    padding: 15px 0;
+    padding-top: 15px;
 }
 
 #header>div{
@@ -15,10 +15,15 @@
 }
 
 #header .sub-header .icon-header {
-    color: #df321b;
-    transform: none;
-    
+    transform: none;   
 }
+
+#header .sub-header .icon-header img{
+    width: 50%;
+    margin-bottom: 18px;
+}
+
+
 
 #header .sub-header .search-input {
     position: relative;
@@ -38,7 +43,10 @@
     margin: 0;
 }
 
-#header .nav-bar li button{
+#header .nav-bar li a{
+    text-decoration: none;
+    color:black;
+    display: block;
     border: none;
     background: #fff;
     font-size: 19px;
@@ -47,7 +55,7 @@
     position: relative;
     overflow: hidden;
 }
-#header .nav-bar li button::after {
+#header .nav-bar li a::after {
     content: '';
     position: absolute;
     left: 0;
@@ -56,10 +64,10 @@
     height: 4px;
     border-bottom: 4px solid #cf0000;
 
-    transition: width 0.5s; /* Áp dụng hiệu ứng transition cho chiều rộng */
+    transition: width 0.5s; 
 }
 
-#header .nav-bar li button:hover::after{
+#header .nav-bar li a:hover::after{
     width: 100%;
 }
 
@@ -67,6 +75,7 @@
 #footer{
     background-color: #c2c2c2;
     padding: 50px 20px 5px 20px;
+    margin-top: 20px;   
 }
 
 #footer>div{
