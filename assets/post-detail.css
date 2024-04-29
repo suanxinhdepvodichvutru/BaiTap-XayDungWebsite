@@ -1,0 +1,45 @@
+
+#post-detail {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+
+#post-detail .img-container {
+    width: 650px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 11px;
+    padding: 0;
+
+}
+
+#post-detail .img-container img {
+    transition: transform 1s ease;
+    height: 100%;
+
+    width: 100%;
+    inset: 0px;
+    object-fit: cover;
+    color: transparent;
+}
+#post-detail .img-container img:hover{
+   transform: scale(1.1);
+   border-radius: 11px;
+
+}
+
+#post-detail .heading {
+    margin-bottom: 25px;
+    font-family: "Platypi", serif;
+}
+
+#post-detail .heading h2{
+    font-size: 70px !important;
+
+}
+
