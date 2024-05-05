@@ -1,7 +1,6 @@
 #login-block {
     max-width: 610px;
     margin-bottom: 100px;
-
 }
 
 #login-block .break-form {
@@ -20,9 +19,22 @@
     width: 365px;
 }
 
-#login-block .thirty-part{
+#login-block .thirty-part {
     margin: 0;
     display: flex;
     justify-content: space-around;
     gap: 10px;
+}
+
+#login-block input {
+    background-color: #f5f5f5;
+    border-color: #f0f0f0;
+}
+
+#login-block label {
+    text-transform: uppercase;
+}
+
+#login-block .require {
+    color: red;
 }
