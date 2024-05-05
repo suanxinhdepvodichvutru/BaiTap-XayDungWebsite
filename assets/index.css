@@ -44,6 +44,7 @@
 #content .heading {
     color: #df321b;
     margin-bottom: 25px;
+    text-decoration: none;
 }
 
 #content .discription {

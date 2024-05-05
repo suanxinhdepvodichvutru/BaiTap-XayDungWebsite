@@ -1,0 +1,28 @@
+#login-block {
+    max-width: 610px;
+    margin-bottom: 100px;
+
+}
+
+#login-block .break-form {
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px 0;
+}
+
+#login-block .break-form hr {
+    width: 100%;
+}
+
+#login-block .break-form p {
+    width: 365px;
+}
+
+#login-block .thirty-part{
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}

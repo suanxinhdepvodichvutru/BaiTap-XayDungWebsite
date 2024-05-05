@@ -1,4 +1,6 @@
-
+.inline{
+    display: inline;
+}
 #post-detail {
     margin-top: 25px;
     display: flex;
@@ -33,6 +35,10 @@
 
 }
 
+
+#post-detail .heading-block{
+    border-bottom: 1px solid #ccc;
+}
 #post-detail .heading {
     margin-bottom: 25px;
     font-family: "Platypi", serif;
@@ -42,4 +48,53 @@
     font-size: 70px !important;
 
 }
+#post-detail .sub-discrip {
+   display: flex;
+ }
+ #post-detail .sub-discrip .sub-discrip-content{
+    line-height: 43px;
+    margin-left: 20px;
+}
+#post-detail .sub-discrip .discrip-logo>i{
+   font-size: 25px;
+   padding-left: 3px;
+}
 
+.chef-hat-logo{
+    background-color: red;
+    -webkit-mask: url(https://monngonmoingay.com/images/icons/chef-hat-fill.svg) no-repeat center;
+    mask: url(https://monngonmoingay.com/images/icons/chef-hat-fill.svg) no-repeat center;
+  
+}
+
+#post-detail .discription-text{
+    font-size: 20px;
+    line-height: 40px;
+}
+
+
+#post-detail .process-heading{
+    border-top: 5px solid #4e4e4e;
+    padding-top: 20px;
+}
+
+#post-detail .ingredients ul{
+    list-style: outside;
+    line-height: 27px;
+    font-size: 17px;
+}
+
+#post-detail .ingredients li::marker{
+    font-size: 10px;
+}
+#post-detail .session-prepare{
+    border-bottom: 1px solid #ccc;
+}
+
+#post-detail .session-heading{
+    display: flex;
+    gap: 15px;
+}
+#post-detail .session-heading h4{
+    font-weight: bold;
+}

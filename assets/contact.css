@@ -1,0 +1,40 @@
+#contact-block{
+    max-width: 710px;
+    margin-bottom: 40px;
+}
+
+#contact-block .heading-contact{
+    margin-top: 50px;
+    font-weight: 800;
+}
+#contact-block .information{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+#contact-block .form-infor label{
+    text-transform: uppercase;
+    font-weight: 400;
+}
+#contact-block .form-infor input,
+#contact-block .form-infor textarea{
+    background-color: #f5f5f5;
+    border-color:#f0f0f0;
+}
+
+#contact-block .form-infor input:focus,
+#contact-block .form-infor textarea:focus{
+    border-color:#d2d2d2;
+}
+
+#contact-block .form-infor button{
+   font-size: 20px;
+   font-weight: 600;
+}
+
+
+#contact-block .require {
+   color: red;
+   font-size: 20px;
+}
